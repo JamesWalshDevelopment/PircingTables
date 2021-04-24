@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e0dbdb;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  height: 100%;
+}
+
+.pricing-table {
+  background-color: #fff;
+  padding: 15px;
+  /* height: 400px; */
+  box-shadow: 5px 8px 15px 1px rgba(149, 149, 149, 0.91);
+}
+
+.pricing-table ul li {
+  padding: 15px 0;
+}
