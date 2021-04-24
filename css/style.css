@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@400;500;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +11,14 @@ ul {
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   background-color: #e0dbdb;
+  line-height: 1.5;
 }
 
 .container {
   width: 90%;
-  margin: 0 auto;
+  margin: 7% auto;
 }
 
 .grid {
@@ -27,10 +31,55 @@ body {
 .pricing-table {
   background-color: #fff;
   padding: 15px;
-  /* height: 400px; */
   box-shadow: 5px 8px 15px 1px rgba(149, 149, 149, 0.91);
+  border-radius: 10px;
+  color: #c5c2c2;
+  text-align: center;
 }
 
 .pricing-table ul li {
-  padding: 15px 0;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #c5c2c2;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #ed4c67;
+  border: none;
+  margin-top: 20px;
+  font-size: 1.05em;
+  width: 35%;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.heading-text {
+  color: #444;
+  font-size: 3em;
+  font-family: "Roboto Slab", serif;
+}
+
+.table-title {
+  color: #c5c2c2;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+}
+
+.table-price {
+  font-size: 2.75em;
+  color: #444;
+  font-weight: 900;
+}
+.table-price span {
+  color: #c5c2c2;
+  font-weight: lighter;
+  font-size: 0.4em;
+}
+
+.pricing-table ul li span {
+  font-weight: bolder;
+  color: #444;
 }
