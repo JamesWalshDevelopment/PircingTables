@@ -1,1 +1,1 @@
-# PircingTables
+# Pricing Tables
